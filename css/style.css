@@ -37,6 +37,7 @@ header ul li{
     letter-spacing: 1px;
 }
 
+
 .section1{
     background-image: url(../imges/背景②.jpg);
     background-position: center bottom;
@@ -264,6 +265,52 @@ margin: 0 auto;
 .section5 input[type=submit]:hover{
     background-color: rgb(225, 232, 16);
 }
+
+.section6{
+    padding-top: 60px;
+    margin-bottom: 60px;
+
+}
+.section6 .container{
+    max-width: 1080px;
+    width: 90%;
+    margin: 0 auto;
+
+}
+.section6 h2{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section6 hr{
+    border: solid 2px #2cb67d;
+    margin: 0 auto 40px;
+    width: 60px;
+}
+.section6 ul{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.section6 li{
+    border: solid 1px #ffffff;
+    margin-bottom: 20px;
+    padding: 16px 24px;
+}
+.section6 .subtitle{
+    color: #2cb67d;
+}
+.section6 .subname{
+    color:#2cb67d;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.images .ul{
+    display: flex;
+    justify-content: center;
+}
+
 footer{
     background-color: #ffffff;
     text-align: center;
@@ -289,3 +336,5 @@ footer{
     }
 
 }
+
+
